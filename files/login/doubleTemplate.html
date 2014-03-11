@@ -1,0 +1,86 @@
+<!doctype html>
+<!--[if IE 8] <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <![endif]-->
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/foundation.min.css" />
+<link rel="stylesheet" href="css/app.css" />
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="js/vendor/custom.modernizr.js"></script>
+<title>Double Column Layout</title>
+</head>
+
+<body>
+
+<div id="header" class="topContent">
+    <div class="row">
+  		<div class="large-12 columns"><i class="fa fa-tachometer"></i>
+        	<nav class="top-bar" data-topbar>
+  				<ul class="title-area">
+    				<li class="name">
+      					<h1><a href="#">Stores Admin</a></h1>
+    				</li>
+    				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  				</ul>
+
+  			<section class="top-bar-section">
+    		<!-- Right Nav Section -->
+    			<ul class="right">
+      				<li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#">Stock</a></li>
+                    <li><a href="#">Notice</a></li>
+                    <li><a href="login.html">Login</a></li>
+    			</ul>
+
+ 			 </section>
+</nav>
+        </div>
+	</div>
+    
+    <div class="row">
+  		<div class="large-12 columns">
+        	<dl class="sub-nav">
+  				<dd class="active"><a href="#">All</a></dd>
+  				<dd><a href="#">Sub test 1</a></dd>
+  				<dd><a href="#">Sub test 2</a></dd>
+  				<dd><a href="#">Sub test 3</a></dd>
+			</dl>
+        </div>
+	</div>
+    </div>
+
+    
+<div class="mainContent">
+    <div class="row">
+  		<div class="large-12 columns">
+        	<div class="medium-6 columns">Left Content</div>
+            <div class="medium-6 columns">Right Content</div>
+            	<div class="row">
+            		<div class="large-6 large-centered columns">
+                    	<h4><small>Copyright © 2014 Hull School of Art & Design. All Rights Reserved.</small></h4>
+                        </div>
+                </div>
+        </div>
+	</div>
+</div>
+
+<!-- FOUNDATION SCRIPT START -->
+<script>
+document.write('<script src=' +
+('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+'.js><\/script>')
+</script>
+
+<script src="js/foundation.min.js"></script>
+
+<script>
+$(document).foundation();
+</script>
+<!-- FOUNDATION SCRIPT END -->
+</body>
+</html>
